@@ -31,6 +31,7 @@ gem 'bcrypt', '~> 3.1.7'
 
 gem 'will_paginate', '~> 3.3'
 
+
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
@@ -63,9 +64,9 @@ group :test do
   gem 'chromedriver-helper'
 end
 
-group :productionc do
-  gem 'pg'
-end
+# group :production do
+#   gem 'pg'
+# end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
